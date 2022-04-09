@@ -13,6 +13,9 @@ El Proyecto se abordo bajo los lineamientos de clean arquitecture para la distri
   - Lenguaje: C#
   - Tipo Proyecto: Asp.net core web api
   - Version: .net core 5.0
+  - ![image](https://user-images.githubusercontent.com/2071253/162593703-3787fb0d-274f-4d06-bde5-a60826929c61.png)
+
+
 
 Durante la construcción se tuvieron en cuenta los siguientes puntos:
 * Principios SOLID como:
@@ -31,11 +34,15 @@ Durante la construcción se tuvieron en cuenta los siguientes puntos:
 # Despliegue
 
 La app fue desplegada por medio del servicio de AWS en Elastic Beanstalk:
+
+El Despliegue se realizo en un ambiente de pruebas, pero en el desarrollo se tiene en cuenta las diferentes ambientes de dev, sqa ,pro
+
 * endponit: http://operacionfuegoquasarapi-test.us-east-1.elasticbeanstalk.com/
- * Resources api:
-  -   api/Communication/topsecret
-  -   api/Satellite/topsecret_split/{satelite_name}
-  -   api/Satellite/topsecret_split
+  * Resources api:
+     -   api/Communication/topsecret
+     -   api/Satellite/topsecret_split/{satelite_name}
+     -   api/Satellite/topsecret_split
+
 
 ![image](https://user-images.githubusercontent.com/2071253/162593062-824e0519-5cca-439b-8493-9ed91996e2f8.png)
 
