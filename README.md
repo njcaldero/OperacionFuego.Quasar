@@ -37,7 +37,18 @@ La app fue desplegada por medio del servicio de AWS en Elastic Beanstalk:
   -   api/Satellite/topsecret_split/{satelite_name}
   -   api/Satellite/topsecret_split
 
+![image](https://user-images.githubusercontent.com/2071253/162593062-824e0519-5cca-439b-8493-9ed91996e2f8.png)
+
+![image](https://user-images.githubusercontent.com/2071253/162593066-af4b2b22-840b-4da7-9614-9d7d490ff012.png)
+
 La documentación en formato open api puede ser encontrada en el siguiente link:
 * https://app.swaggerhub.com/apis/nescalro/operacion-fuego_quasar_api/v1
 
-Adjunto tambien se encontraran la collection de postman para la realización de pruebas.
+![image](https://user-images.githubusercontent.com/2071253/162593112-b6f44b59-1330-4ba4-95c5-02ce77d4b214.png)
+
+* Adjunto tambien el json de la collection de postman para la realización de pruebas:
+  * https://www.getpostman.com/collections/9ca56e9f1cb8580e8a08
+  * ![image](https://user-images.githubusercontent.com/2071253/162593298-d87bb381-fafe-494b-b195-1a4657a75b88.png)
+
+
+* By Nestor Calderon.
