@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Data\\OperacionFuego.Quasar.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Core\\OperacionFuego.Quasar.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Core\\OperacionFuego.Quasar.Core.csproj",
+        "projectName": "OperacionFuego.Quasar.Core",
+        "projectPath": "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Core\\OperacionFuego.Quasar.Core.csproj",
+        "packagesPath": "C:\\Users\\002641661\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\002641661\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Data\\OperacionFuego.Quasar.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Data\\OperacionFuego.Quasar.Data.csproj",
+        "projectName": "OperacionFuego.Quasar.Data",
+        "projectPath": "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Data\\OperacionFuego.Quasar.Data.csproj",
+        "packagesPath": "C:\\Users\\002641661\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\002641661\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Core\\OperacionFuego.Quasar.Core.csproj": {
+                "projectPath": "C:\\Users\\002641661\\Source\\Repos\\GIT\\OperacionFuego.Quasar\\OperacionFuego.Quasar.Core\\OperacionFuego.Quasar.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

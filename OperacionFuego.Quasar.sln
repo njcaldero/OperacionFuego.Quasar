@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2FB32E24-CDF7-47F6-B47A-6C294683334F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{4C8D8761-5EF4-4AD0-87AE-AD8FFD0B753E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{494CC6FC-9ED2-437A-8456-989DFA6564B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionFuego.Quasar.Api", "OperacionFuego.Quasar.Api\OperacionFuego.Quasar.Api.csproj", "{43832637-17F9-4155-B827-224E16D3FEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionFuego.Quasar.Core", "OperacionFuego.Quasar.Core\OperacionFuego.Quasar.Core.csproj", "{FDB05B28-B751-4109-95ED-9989008DC467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{5610BFEF-05D9-4E79-BA8A-ADE7BF765C7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionFuego.Quasar.Util", "OperacionFuego.Quasar.Util\OperacionFuego.Quasar.Util.csproj", "{C25EB628-5D74-42CE-984A-FC44F4811CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionFuego.Quasar.Data", "OperacionFuego.Quasar.Data\OperacionFuego.Quasar.Data.csproj", "{055C345A-FAF9-43EB-969F-7A1EBF5810BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43832637-17F9-4155-B827-224E16D3FEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43832637-17F9-4155-B827-224E16D3FEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43832637-17F9-4155-B827-224E16D3FEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43832637-17F9-4155-B827-224E16D3FEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB05B28-B751-4109-95ED-9989008DC467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB05B28-B751-4109-95ED-9989008DC467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB05B28-B751-4109-95ED-9989008DC467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB05B28-B751-4109-95ED-9989008DC467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25EB628-5D74-42CE-984A-FC44F4811CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25EB628-5D74-42CE-984A-FC44F4811CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25EB628-5D74-42CE-984A-FC44F4811CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25EB628-5D74-42CE-984A-FC44F4811CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055C345A-FAF9-43EB-969F-7A1EBF5810BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055C345A-FAF9-43EB-969F-7A1EBF5810BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055C345A-FAF9-43EB-969F-7A1EBF5810BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055C345A-FAF9-43EB-969F-7A1EBF5810BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43832637-17F9-4155-B827-224E16D3FEC5} = {2FB32E24-CDF7-47F6-B47A-6C294683334F}
+		{FDB05B28-B751-4109-95ED-9989008DC467} = {4C8D8761-5EF4-4AD0-87AE-AD8FFD0B753E}
+		{5610BFEF-05D9-4E79-BA8A-ADE7BF765C7A} = {494CC6FC-9ED2-437A-8456-989DFA6564B9}
+		{C25EB628-5D74-42CE-984A-FC44F4811CD7} = {5610BFEF-05D9-4E79-BA8A-ADE7BF765C7A}
+		{055C345A-FAF9-43EB-969F-7A1EBF5810BE} = {494CC6FC-9ED2-437A-8456-989DFA6564B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3930FFA-5DE5-4499-BF03-1A368FECD808}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Release",
+    "framework"     : "net5.0",
+    "self-contained" : false,
+    "application"    : "OperacionFuegoQuasarApi",
+    "environment"    : "OperacionFuegoQuasarApi-test",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-00acd1833de9dab6f\";\"aws:ec2:vpc,Subnets\"=\"subnet-0f62e106e955ab05c\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.3.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "operacionfuegoquasarapi-test",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
