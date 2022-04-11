@@ -5,6 +5,8 @@ Desafío MELI
 
 El Proyecto se abordo bajo los lineamientos de clean arquitecture para la distribución de las diferentes capas o componentes de la solución, teniendo en cuenta la dependencia de adentro hacia afuera.
 
+En lo posible tener alta cohesión y bajo acoplamiento.
+
 ![image](https://user-images.githubusercontent.com/2071253/162592502-72428983-95f9-47fc-b93f-fc436094796f.png)
 
 ----------------------------------------------------------
